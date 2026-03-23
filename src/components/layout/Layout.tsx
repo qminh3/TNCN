@@ -1,6 +1,6 @@
 import { Outlet, Link, useNavigate, useLocation } from 'react-router-dom';
 import { supabase } from '../../lib/supabase';
-import { Users, LayoutDashboard, Calculator, History, LogOut } from 'lucide-react';
+import { Users, Calculator, History, LogOut } from 'lucide-react';
 
 export default function Layout() {
   const navigate = useNavigate();
